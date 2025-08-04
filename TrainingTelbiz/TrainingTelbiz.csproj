@@ -23,6 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CategoryServices\CategoryServices.csproj" />
+    <ProjectReference Include="..\ExchangeServices\ExchangeServices.csproj" />
+    <ProjectReference Include="..\ProductServices\ProductServices.csproj" />
     <ProjectReference Include="..\SharedResource\SharedResource.csproj" />
   </ItemGroup>
 
